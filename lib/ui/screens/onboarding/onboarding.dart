@@ -50,9 +50,6 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
           hasInternetAccess = true;
           finishedInternetAccessCheck = true;
           isLoading = false;
-          print('Good Request');
-          print(hasInternetAccess);
-          print(finishedInternetAccessCheck);
         });
       }
     } on SocketException catch (_) {
@@ -60,9 +57,6 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
         hasInternetAccess = false;
         finishedInternetAccessCheck = true;
         isLoading = false;
-        print('Bad Request');
-        print(hasInternetAccess);
-        print(finishedInternetAccessCheck);
       });
     }
   }
