@@ -51,7 +51,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               initialSettings: InAppWebViewSettings(
                 javaScriptEnabled: true,
                 useShouldOverrideUrlLoading: true,
-                userAgent: 'Owomi',
+                userAgent: 'Joba Adewumi Portfolio',
                 allowsInlineMediaPlayback: true,
                 allowsBackForwardNavigationGestures: true,
                 automaticallyAdjustsScrollIndicatorInsets: true,
